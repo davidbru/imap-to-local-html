@@ -328,7 +328,7 @@ def getMailFolders():
     # None found or more than one, go home
     if len(menusWithNoParent) == 1:
         # We remove it
-        del mailFolders[menusWithNoParent[0]]
+        #del mailFolders[menusWithNoParent[0]]
 
         # We change fatherhood for all children
         for menu in mailFolders:
